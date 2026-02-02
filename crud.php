@@ -59,14 +59,14 @@ if (isset($_GET['edit'])) {
 </head>
 <body>
 
-<h2>Student Application</h2>
-
+<h2>Student Application Form</h2>
+<p>To get students details for data collectiom</p> 
 <form method="post">
     <input type="hidden" name="id" value="<?php echo $id; ?>">
 
     Name:
     <input type="text" name="name" value="<?php echo $name; ?>" required><br><br>
-
+  
     Department:
     <input type="text" name="department" value="<?php echo $department; ?>" required><br><br>
 

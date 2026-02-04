@@ -34,8 +34,15 @@ $department = $row['department'];
 $age = $row['age'];}?>
 <!DOCTYPE html>
 <html>
-<head> <title>Student CRUD</title></head>
-<body><h2>Student CRUD Application</h2>
+<head>
+    <title>Student CRUD</title>
+</head>
+<body>
+
+<h2>Student Application Form</h2>
+<p>To get students details for data collectiom</p> 
+//student form
+
 <form method="post">
 <input type="hidden" name="id" value="<?php echo $id; ?>">
 Name: <input type="text" name="name" value="<?php echo $name; ?>"

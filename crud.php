@@ -1,4 +1,4 @@
-//php code
+
 <?php
 $conn = new mysqli("localhost", "cruduser", "Crud@123", "simpledb");
 if ($conn->connect_error) {
@@ -41,7 +41,7 @@ $age = $row['age'];}?>
 <body>
 <h2>Student Application Form</h2>
 <p>To get students details for data collectiom</p> 
-//student form
+
 
 <form method="post">
 <input type="hidden" name="id" value="<?php echo $id; ?>">
